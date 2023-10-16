@@ -52,7 +52,7 @@ function Sidebar() {
   });
 
   function getRooms() {
-    fetch("https://chatapp-23n1.onrender.com/rooms")
+    fetch("https://chat-app-fvrh.onrender.com/rooms")
       .then((res) => res.json())
       .then((data) => setRooms(data));
   }
